@@ -38,7 +38,7 @@ const UserList = function (props) {
 
     return (
         <React.Fragment>
-            {props.list.forEach((acc) => {
+            {props.list.map((acc) => {
                 return (
                     <ProfileWrapper key={acc.id} className={styles["profile"]}>
                         <div className={styles["profile__users"]}>
