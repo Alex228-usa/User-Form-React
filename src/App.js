@@ -107,7 +107,7 @@ function App() {
 
     const editUser = function (e) {
         console.log(userListState)
-        const filtered = userListState.forEach(u => {
+        const filtered = userListState.map(u => {
             if (u.id.toString()===e.target.id){
                 u.fname = "test"
             }
