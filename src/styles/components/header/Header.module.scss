@@ -1,0 +1,38 @@
+@import "../../Variables";
+.main-header {
+    padding: 20px 40px;
+    background: $dark-purple;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    &__logo {
+        width: 150px;
+    }
+
+    &__menu_hamburger {
+        width: 30px;
+        cursor: pointer;
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main-header {
+        width: 100%;
+        justify-content: space-between;
+        &__menu_hamburger {
+            display: block;
+        }
+    }
+}
+
+@media screen and (max-width: 525px) {
+    .main-header {
+        &__logo {
+            width: 100px;
+        }
+    }
+}

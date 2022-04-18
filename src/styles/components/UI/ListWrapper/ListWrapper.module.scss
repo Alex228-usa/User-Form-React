@@ -1,0 +1,23 @@
+.list-wrapper{
+    background-color: rgb(24, 30, 42);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
+    list-style: none;
+    padding: 10px 20px;
+    width: 720px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    min-height: 450px;
+    border: 3px solid rgb(97, 103, 116);
+    overflow-x: scroll;
+    scrollbar-width: thin;
+  
+} 
+
+@media screen and (max-width: 799px){
+    .list-wrapper{
+      width: 100%;
+    }
+  }
+  

@@ -1,0 +1,29 @@
+.list-wrapper {
+  background-color: #181e2a;
+  -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
+          box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
+  list-style: none;
+  padding: 10px 20px;
+  width: 720px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 5px;
+  min-height: 450px;
+  border: 3px solid #616774;
+  overflow-x: scroll;
+  scrollbar-width: thin;
+}
+
+@media screen and (max-width: 799px) {
+  .list-wrapper {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=ListWrapper.module.css.map */
