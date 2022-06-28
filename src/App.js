@@ -113,19 +113,6 @@ function App() {
             }
         })
         console.log(filtered)
-        // setUserListState((prev) => {
-        //     const previous = [...prev];
-        //     console.log(previous)
-        //     const filtered = previous.map(u => {
-
-        //         if (u.id.toString()===e.target.id){
-        //             u.fname = "test"
-        //         }
-        //     })
-        //     console.log(filtered)
-        //     // return filtered;
-        // });
-
         sendRequest({
             url: `http://localhost:3004/users/${e.target.id}`,
             method: "PUT",
