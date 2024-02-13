@@ -1,3 +1,5 @@
+# Simple user form
+
 To run the application on the web, follow the instructions :
 
 1)make sure you are inside the project's folder on VScode
